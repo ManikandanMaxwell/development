@@ -1,0 +1,128 @@
+.pageAlign{
+    position: fixed;
+    /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    width: auto !important;
+}
+
+
+.modal-dialog.modal-dialog-centered.modal-dialog-scrollable.modal-md {
+    max-width: 600px ;
+}
+
+.modal-header {
+    // height: 0;
+}
+
+.modal-XL .k-floating-label-container.k-state-empty>.k-label,
+.modal-XL .k-floating-label-container.k-empty>.k-label {
+    // left: 0rem !important;
+    font-size: 0.75rem;
+    color: #bdbdbd;
+    font-family: "Graphik-Regular";
+    font-weight: 400;
+}
+
+.btn-close:hover,
+.btn-close:active,
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.btn-close.expandClose {
+    background: none !important;
+    cursor: pointer;
+    padding: 0.3125rem 0.875rem 0.75rem 0.5rem !important;
+    // padding: 0.3125rem !important;
+    margin-right: 0.625rem;
+    border: 0.0625rem solid #e1e1e1;
+    float: right;
+}
+
+.btn-close {
+    color: #4c4e54;
+}
+
+.modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem auto -0.5rem -0.5rem !important;
+}
+
+.modal-content {
+    border-radius: 0.25rem;
+}
+
+
+.modal-title {
+    font-family: FSMatthew !important;
+    font-size: 1.25rem !important;
+    color: #4c4e54;
+    margin-bottom: 0 !important;
+  }
+  .modal-body {
+    background: #fff;
+    overflow-x: hidden;
+  }
+  .ModalCss {
+    font-size: 14px;
+    font-family: "FSMatthew-Regular";
+    color: #4c4e54;
+    padding: 0.5rem 1rem;
+    span {
+      font-size: 14px;
+      font-family: "FSMatthew-Regular";
+      // color: #4C4E54;
+    }
+    p {
+      font-size: 14px;
+      font-family: "FSMatthew-Regular";
+      // color: #4C4E54;
+      margin-bottom: 0;
+    }
+    .Info_Common {
+      color: #9e9e9e !important;
+      font-family: "FSMatthew-Regular" !important;
+      font-size: 12px !important;
+      letter-spacing: 0;
+      line-height: 1.333;
+      margin-bottom: 0;
+    }
+  }
+  .modal-body.cards_Modal {
+    background: #f8f8fa;
+  }
+  .modal-header,
+  .modal-footer {
+    border: none !important;
+  }
+  .modal-backdrop {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .Note_Info {
+    color: #4c4e54;
+    font-family: "FSMatthew-Regular";
+    font-size: 0.875rem;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+  }
+
+
+ngb-modal-window.d-block.fusionModal.modal.fade.show {
+    background: #fff !important;
+  }
+  
+  ngb-modal-window.d-block.fusionModal.modal.fade.show .modal-dialog-scrollable .modal-content {
+    border: none !important;
+  }
+  ngb-modal-window.d-block.gridExpandModal.modal.fade.show {
+    background: #fff !important;
+  }
+  
+  ngb-modal-window.d-block.gridExpandModal.modal.fade.show .modal-dialog-scrollable .modal-content {
+    border: none !important;
+  }

@@ -1,0 +1,88 @@
+<!-- <p>login-page works!</p> -->
+<ng-container *ngIf="!show">
+    <div class="row">
+        <div class="col-6">
+            <button (click)="modalOpen('Admin')">Admin</button>
+        </div>
+        <br>
+        <div class="col-6">
+            <button (click)="modalOpen('Customer')">Customer</button>
+        </div>
+    </div>
+</ng-container>
+
+
+<ng-container *ngIf="show" class="pageAlign">
+     <div class="row">
+        Welcome {{pagedata}} :)
+     </div>
+     <br>
+     <div class="row">
+        <div class="col-6">
+            User ID:
+        </div>
+        <div class="col-6">
+            <input type="text">
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-6">
+            Password:
+        </div>
+        <div class="col-6">
+            <input type="text">
+        </div>
+     </div>
+     <br>
+     <div class="row">
+        <div class="col-6">
+            
+        </div>
+        <div class="col-6">
+            <button class="text-primary">Login</button>
+        </div>
+     </div>
+</ng-container>
+
+
+<ng-template #popup let-modal>
+    <div class="modal-header">
+        <div class="row">
+            <div class="col-6">
+                <h4 class="modal-title" id="modal-basic-title">Sign Up Page</h4>
+           </div>
+           <div class="col-6">
+               <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+           </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="row">
+            Please Fill the below Details
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <!-- <div class="input-group mb-2"> -->
+                    <kendo-floatinglabel text="Gender">
+                        <span>
+                            <kendo-dropdownlist   [valuePrimitive]="true"
+                                [disabled]="false" [data]="" [filterable]="true" textField="" valueField="">
+                            </kendo-dropdownlist>
+                        </span>
+                    </kendo-floatinglabel>
+                <!-- </div> -->
+            </div>
+            <div class="col-6">
+                <!-- <div class="input-group mb-2"> -->
+                    <kendo-floatinglabel text="Gender">
+                        <span>
+                            <kendo-dropdownlist   [valuePrimitive]="true"
+                                [disabled]="false" [data]="" [filterable]="true" textField="" valueField="">
+                            </kendo-dropdownlist>
+                        </span>
+                    </kendo-floatinglabel>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>    
+</ng-template>
