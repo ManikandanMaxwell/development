@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
+// import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
 
 @Component({
   selector: 'app-login-page',
@@ -10,7 +10,8 @@ export class LoginPageComponent implements OnInit {
   @ViewChild('popup', { static: true }) popup:any;
   show:boolean = false;
   pagedata:any = '';
-  constructor(private modalService: NgbModal) { }
+  // constructor(private modalService: NgbModal) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
