@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
 
 
   async next(){
-    await this.delay(3000);
+    await this.delay(5000);
     this.loader = true;
     await this.delay(2500);
     this.loginTrue = true;
